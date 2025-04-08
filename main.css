@@ -364,6 +364,16 @@ footer {
 }
 
 @media (max-width: 576px) {
+  .social-links {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .social-links a {
+    flex: 1 1 40px; /* allows each link to shrink/grow and wrap nicely */
+    text-align: center;
+  }
+
   .nav-links {
     gap: 10px;
   }
